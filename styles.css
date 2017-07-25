@@ -39,11 +39,14 @@ li {
 #links h3{
   color: blue;
 }
-#Turnip {
-  max-width: 400px;
-  float: left;
+.classwork {
+  width: 50%;
+  display: block;
+  text-align: left;
 }
-#TextAdevnture {
-  max-width: 400px;
-  float: left;
+#Turnip {
+  max-width: 100%;
+}
+#text-adventure {
+  max-width: 100%;
 }
