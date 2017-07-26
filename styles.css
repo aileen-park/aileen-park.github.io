@@ -50,3 +50,25 @@ li {
 #text-adventure {
   max-width: 100%;
 }
+#harrypotter {
+  max-width: 100%;
+}
+
+#friends {
+  max-width: 35%;
+  float: none;
+  padding: none
+}
+#fam {
+  max-width: 30%;
+  float: right;
+  padding: none
+}
+#music {
+  max-width: 30%;]
+  float: left;
+  padding: none
+}
+#tab {
+  float: left
+}
