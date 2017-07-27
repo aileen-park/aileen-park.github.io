@@ -4,12 +4,14 @@ body{
   color: inherit;
   text-align: center;
 }
+
 p {
   font-size: 25px;
   text-align: left;
   font-family: 'Josefin Sans', sans-serif;
   margin-top: 5px;
 }
+
 h3 {
   text-align: left;
   text-decoration: underline;
@@ -17,67 +19,94 @@ h3 {
   color: purple;
   margin-bottom: 0px;
 }
+
 h1 {
   font-size: 60px;
+  text-align: center;
 }
+
 li {
   text-align: left;
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
-
-}
-#self-portrait {
-  max-width: 300px;
 }
 
-#likes h3 {
-  color: green;
-}
-#dislikes h3{
-  color: red;
-}
-#links h3{
-  color: black;
-}
-.classwork {
-  width: 50%;
-  display: block;
-  text-align: left;
-}
-#Turnip {
-  max-width: 100%;
-}
-#text-adventure {
-  max-width: 100%;
-}
-#harrypotter {
-  max-width: 100%;
-}
-
-#friends {
-  max-width: 35%;
-  float: none;
-  padding: none
-}
-#fam {
-  max-width: 30%;
-  float: right;
-  padding: none
-}
-#music {
-  max-width: 30%;]
-  float: left;
-  padding: none
-}
-#tabs {
-  float: none;
-}
 .box {
 float: left;
 width: 200px;
 height: 100px;
 margin: 1em;
+font-size: 25px;
 }
+
 .after-box {
   clear: left;
+}
+
+#homebanner{
+  position: relative;
+  background-image: url(FullSizeRender.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+ }
+
+#self-portrait {
+  max-width: 300px;
+  float: center
+}
+
+#likes h3 {
+  color: green;
+}
+
+#dislikes h3{
+  color: red;
+}
+
+#links h3{
+  color: black;
+}
+
+.classwork {
+  width: 50%;
+  display: block;
+  text-align: left;
+}
+
+#Turnip {
+  max-width: 100%;
+}
+
+#text-adventure {
+  max-width: 100%;
+}
+
+#harrypotter {
+  max-width: 100%;
+}
+
+.pictures {
+align-items: center;
+}
+
+#friends {
+  max-width: 600px;
+  max-height: 300px
+  float: none;
+  padding: 10px
+}
+
+#fam {
+  max-width: 500px;
+  max-height: 300px
+  float: right;
+  padding: 10px
+}
+
+#music {
+  max-width: 500px;
+  float: left;
+  padding: 10px
 }
