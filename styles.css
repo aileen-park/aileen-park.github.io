@@ -82,7 +82,9 @@ font-size: 25px;
 #text-adventure {
   max-width: 100%;
 }
-
+#textgame {
+  max-width: 100%;
+}
 #harrypotter {
   max-width: 100%;
 }
