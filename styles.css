@@ -57,6 +57,15 @@ font-size: 35px;
   float: left
 }
 
+/*.pagebreak {
+  position: relative;
+  background-image: url(pagebreak);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  height: 50vh;*/
+}
+
 #likes h3 {
   color: green;
 }
@@ -98,6 +107,22 @@ align-items: center;
   max-height: 300px
   float: none;
   padding: 10px
+    /*-webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    transform: rotate(5deg);
+    -webkit-transform: scale(1.5);*/
+   /*-moz-transform: scale(1.5);
+   -o-transform: scale(1.5);*/
+   transform: scale(1.5);
+   z-index: 10;
+   -webkit-transform: rotate(8deg);
+   -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  padding: 10px 10px 30px 10px;
+   background: white;
 }
 
 #fam {
@@ -105,10 +130,24 @@ align-items: center;
   max-height: 300px
   float: right;
   padding: 10px
+  -webkit-transform: rotate(-10deg);
+   -moz-transform: rotate(-10deg);
+   -o-transform: rotate(-10deg);
+   transform: rotate(-10deg);
+   transition: all 0.5s ease-out;
+   padding: 10px 10px 30px 10px;
+    background: white;
 }
 
 #music {
   max-width: 500px;
   float: left;
   padding: 10px
+  -webkit-transform: rotate(-5);
+     -moz-transform: rotate(-3deg);
+     -o-transform: rotate(-3deg);
+     transform: rotate(-3deg);
+     transition: all 0.5s ease-out;
+     padding: 10px 10px 30px 10px;
+      background: white;
 }
