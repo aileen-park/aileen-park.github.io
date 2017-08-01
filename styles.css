@@ -21,8 +21,10 @@ h3 {
 }
 
 h1 {
+  display: block;
   font-size: 60px;
   text-align: center;
+  float: right;
 }
 
 li {
@@ -32,15 +34,16 @@ li {
 }
 
 .box {
-float: right;
+float: left;
 width: 200px;
 height: 100px;
 margin: 1em;
 font-size: 35px;
+text-align: center;
 }
 
 .after-box {
-  clear: left;
+  clear: all;
 }
 
 #homebanner{
@@ -49,12 +52,12 @@ font-size: 35px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 15vh;
+  height: 25vh;
  }
 
 #self-portrait {
-  max-width: 300px;
-  float: left
+  max-width: 500px;
+  float: center
 }
 
 /*.pagebreak {
@@ -72,6 +75,7 @@ font-size: 35px;
 
 #dislikes h3{
   color: red;
+  display: block;
 }
 
 #links h3{
